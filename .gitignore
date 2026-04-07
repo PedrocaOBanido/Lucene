@@ -1,15 +1,34 @@
+# Build artifacts
+build/
+/*/build/
+bin/
+gen/
+out/
+
+# Gradle
+.gradle/
+
+# IntelliJ IDEA / Android Studio
+.idea/
 *.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+*.iws
+*.ipr
+/captures/
+
+# Local configuration
 local.properties
+
+# Log files
+*.log
+
+# Android NDK
+.externalNativeBuild/
+.cxx/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Other
+.navigation/
+captures/
